@@ -27,6 +27,8 @@ namespace SolutionZip
             List<string> exceptions = new List<string>();
             exceptions.Add(@".user");
             exceptions.Add(@".suo");
+            exceptions.Add(@".gitignore");
+            exceptions.Add(@"\.git");
             exceptions.Add(@"\bin");
             exceptions.Add(@"\obj");
             exceptions.Add(@"\packages");
